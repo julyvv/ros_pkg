@@ -1,0 +1,6 @@
+<launch>
+   <node name="uartdriver_node" pkg="uartdriver" type="uartdriver_node" output="screen">
+   </node>
+   <node name="stereo_driver" pkg="stereo_driver" type="stereo_driver" output="screen">
+   </node>
+</launch>

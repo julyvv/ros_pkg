@@ -1,0 +1,5 @@
+<launch>
+   <node name="uartdriver_node" pkg="uartdriver" type="uartdriver_node" output="screen">
+   </node>
+</launch>
+
